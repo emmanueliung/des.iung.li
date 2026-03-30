@@ -60,35 +60,42 @@
 
   .theme-ai-lab,
   body.theme-ai-lab {
-    --background: 240 100% 12%;
-    --foreground: 0 0% 100%;
-    --card: 240 100% 15%;
-    --card-foreground: 0 0% 100%;
-    --popover: 240 100% 15%;
-    --popover-foreground: 0 0% 100%;
-    --primary: 210 100% 70%;
-    --primary-foreground: 240 100% 12%;
-    --secondary: 240 80% 25%;
-    --secondary-foreground: 0 0% 100%;
-    --muted: 240 60% 30%;
-    --muted-foreground: 240 30% 85%;
-    --accent: 240 80% 30%;
-    --accent-foreground: 0 0% 100%;
+    --background: 215 100% 50%;
+    --foreground: 0 0% 0%;
+    --card: 215 100% 45%;
+    --card-foreground: 0 0% 0%;
+    --popover: 215 100% 45%;
+    --popover-foreground: 0 0% 0%;
+    --primary: 0 0% 0%;
+    --primary-foreground: 215 100% 50%;
+    --secondary: 215 100% 40%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 215 100% 40%;
+    --muted-foreground: 215 50% 10%;
+    --accent: 215 100% 40%;
+    --accent-foreground: 0 0% 0%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 240 60% 40%;
-    --input: 240 60% 30%;
-    --ring: 210 100% 70%;
-    background-color: #00007a !important; /* Royal Blue base */
-    background-image: radial-gradient(circle at center, #0000CC 0%, #00007a 100%) !important;
-    color: white !important;
+    --border: 215 100% 30%;
+    --input: 215 100% 40%;
+    --ring: 0 0% 0%;
+    background-color: #3b82f6 !important; /* Vibrant Blue */
+    background-image: none !important;
+    color: black !important;
   }
 }
 
-/* Force header deep blue on AI Lab */
+/* Force header colors on AI Lab */
 .theme-ai-lab header {
-  background-color: #00007a !important;
-  color: white !important;
+  background-color: #3b82f6 !important;
+  color: black !important;
+}
+
+.theme-ai-lab nav a,
+.theme-ai-lab .text-white,
+.theme-ai-lab .text-blue-50,
+.theme-ai-lab .text-blue-100 {
+  color: black !important;
 }
 
 .theme-ai-lab nav a {
