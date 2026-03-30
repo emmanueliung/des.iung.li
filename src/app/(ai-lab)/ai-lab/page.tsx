@@ -52,7 +52,14 @@ const AILabPage = () => {
           <source src="/video/videoia.mp4" type="video/mp4" />
           Votre navigateur ne supporte pas la balise vidéo.
         </video>
-        <div className="absolute inset-0 bg-transparent z-10"></div>
+        <div className="absolute inset-0 bg-[#0000ff]/20 mix-blend-multiply z-10"></div>
+        <div
+          className="absolute inset-0 opacity-10 z-10"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 10 10' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='2' cy='2' r='1' fill='%23000000'/%3E%3C/svg%3E")`,
+          }}
+        />
+        <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-[#0000ff] to-transparent z-10" />
 
         <div className="container relative z-20 mx-auto px-4 md:px-6">
           <motion.div
