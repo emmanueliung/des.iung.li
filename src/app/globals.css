@@ -62,27 +62,32 @@
   body.theme-ai-lab {
     --background: 240 100% 50%;
     --foreground: 0 0% 0%;
-    --card: 240 100% 70%;
+    --card: 0 0% 0% / 0;
     --card-foreground: 0 0% 0%;
-    --popover: 240 100% 70%;
+    --popover: 0 0% 0% / 0;
     --popover-foreground: 0 0% 0%;
     --primary: 0 0% 0%;
     --primary-foreground: 240 100% 50%;
-    --secondary: 240 100% 65%;
+    --secondary: 0 0% 0% / 0.05;
     --secondary-foreground: 0 0% 0%;
-    --muted: 240 100% 65%;
+    --muted: 0 0% 0% / 0.05;
     --muted-foreground: 240 50% 10%;
-    --accent: 240 100% 65%;
+    --accent: 0 0% 0% / 0.1;
     --accent-foreground: 0 0% 0%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 240 100% 40%;
-    --input: 240 100% 65%;
+    --border: 0 0% 0%;
+    --input: 0 0% 0% / 0.1;
     --ring: 0 0% 0%;
-    background-color: #0000ff !important; /* Pure Blue requested */
+    background-color: #0000ff !important;
     background-image: none !important;
     color: black !important;
   }
+}
+
+.theme-ai-lab .bg-card {
+  background-color: transparent !important;
+  border: 1px solid black !important;
 }
 
 /* Force header colors on AI Lab */

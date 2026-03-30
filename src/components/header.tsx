@@ -54,7 +54,7 @@ const Header = ({ isAILabProp = false }: { isAILabProp?: boolean }) => {
       className={cn(
         'sticky top-0 z-50 w-full transition-all duration-300',
         isAILab
-          ? 'bg-[#0a0a2e] text-white'
+          ? 'bg-[#0000ff] text-black'
           : isScrolled
             ? 'bg-background/80 backdrop-blur-sm border-b'
             : 'bg-transparent'
