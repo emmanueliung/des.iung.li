@@ -8,7 +8,7 @@ export default function AILabLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex flex-col min-h-screen theme-ai-lab bg-[#00007a] text-white">
+    <div className="flex flex-col min-h-screen theme-ai-lab bg-[#0000ff] text-black">
       <Header isAILabProp={true} />
       <main className="flex-1">
         {children}

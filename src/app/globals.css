@@ -60,26 +60,26 @@
 
   .theme-ai-lab,
   body.theme-ai-lab {
-    --background: 215 100% 50%;
+    --background: 240 100% 50%;
     --foreground: 0 0% 0%;
-    --card: 215 100% 45%;
+    --card: 240 100% 70%;
     --card-foreground: 0 0% 0%;
-    --popover: 215 100% 45%;
+    --popover: 240 100% 70%;
     --popover-foreground: 0 0% 0%;
     --primary: 0 0% 0%;
-    --primary-foreground: 215 100% 50%;
-    --secondary: 215 100% 40%;
+    --primary-foreground: 240 100% 50%;
+    --secondary: 240 100% 65%;
     --secondary-foreground: 0 0% 0%;
-    --muted: 215 100% 40%;
-    --muted-foreground: 215 50% 10%;
-    --accent: 215 100% 40%;
+    --muted: 240 100% 65%;
+    --muted-foreground: 240 50% 10%;
+    --accent: 240 100% 65%;
     --accent-foreground: 0 0% 0%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 215 100% 30%;
-    --input: 215 100% 40%;
+    --border: 240 100% 40%;
+    --input: 240 100% 65%;
     --ring: 0 0% 0%;
-    background-color: #3b82f6 !important; /* Vibrant Blue */
+    background-color: #0000ff !important; /* Pure Blue requested */
     background-image: none !important;
     color: black !important;
   }
@@ -87,7 +87,7 @@
 
 /* Force header colors on AI Lab */
 .theme-ai-lab header {
-  background-color: #3b82f6 !important;
+  background-color: #0000ff !important;
   color: black !important;
 }
 
