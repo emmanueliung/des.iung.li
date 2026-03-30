@@ -1,0 +1,11 @@
+# https://firebase.google.com/docs/app-hosting/configure-nextjs
+# Ce fichier configure le backend pour Firebase App Hosting.
+run:
+  # Spécifie les variables d'environnement pour l'environnement d'exécution du serveur.
+  # REMPLACEZ la valeur ci-dessous par votre véritable clé API Resend.
+  # C'est la méthode officielle pour que votre clé soit disponible en production.
+  environment:
+    - variable: RESEND_API_KEY
+      value: re_SWYwV8GX_6fUVD45ApNxmAnqiU8VPNztF
+# backend: est nécessaire pour spécifier que c'est un backend App Hosting
+backend: {}
