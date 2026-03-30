@@ -52,14 +52,14 @@ const AILabPage = () => {
           <source src="/video/videoia.mp4" type="video/mp4" />
           Votre navigateur ne supporte pas la balise vidéo.
         </video>
-        <div className="absolute inset-0 bg-background/70 z-10"></div>
+        <div className="absolute inset-0 bg-[#00007a]/40 z-10"></div>
         <div
-          className="absolute inset-0 opacity-10 z-10"
+          className="absolute inset-0 opacity-20 z-10"
           style={{
             backgroundImage: `url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 10 10' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='2' cy='2' r='1' fill='%23ffffff'/%3E%3C/svg%3E")`,
           }}
         />
-        <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-background to-transparent z-10" />
+        <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-[#00007a] to-transparent z-10" />
         <div className="container relative z-20 mx-auto px-4 md:px-6">
           <motion.div
             className="mx-auto max-w-3xl text-center"
@@ -69,13 +69,13 @@ const AILabPage = () => {
           >
             <motion.h1
               variants={itemVariants}
-              className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-5xl md:text-6xl"
+              className="font-headline text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl"
             >
               {t('aiLabTitle')}
             </motion.h1>
             <motion.p
               variants={itemVariants}
-              className="mt-6 text-lg leading-8 text-foreground"
+              className="mt-6 text-lg leading-8 text-blue-50"
             >
               {t('aiLabIntro')}
             </motion.p>
@@ -161,7 +161,7 @@ const AILabPage = () => {
                     </div>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-muted-foreground">{t('aiLabServiceDevText')}</p>
+                    <p className="text-blue-100">{t('aiLabServiceDevText')}</p>
                   </CardContent>
                 </Card>
                 <Card className="bg-card border border-border">
@@ -174,7 +174,7 @@ const AILabPage = () => {
                     </div>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-muted-foreground">{t('aiLabServiceDesignText')}</p>
+                    <p className="text-blue-100">{t('aiLabServiceDesignText')}</p>
                   </CardContent>
                 </Card>
                 <Card className="bg-card border border-border">
@@ -187,7 +187,7 @@ const AILabPage = () => {
                     </div>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-muted-foreground">{t('aiLabServiceStrategyText')}</p>
+                    <p className="text-blue-100">{t('aiLabServiceStrategyText')}</p>
                   </CardContent>
                 </Card>
               </div>
@@ -201,10 +201,10 @@ const AILabPage = () => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="mx-auto max-w-3xl text-center">
             <Lightbulb className="mx-auto h-12 w-12 text-primary" />
-            <h2 className="mt-4 font-headline text-3xl font-bold tracking-tight sm:text-4xl text-primary">
+            <h2 className="mt-4 font-headline text-3xl font-bold tracking-tight sm:text-4xl text-white">
               {t('aiLabCtaTitle')}
             </h2>
-            <p className="mt-4 text-lg text-muted-foreground">
+            <p className="mt-4 text-lg text-blue-100">
               {t('aiLabCtaText')}
             </p>
             <div className="mt-8">
