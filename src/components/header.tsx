@@ -69,7 +69,10 @@ const Header = ({ isAILabProp = false }: { isAILabProp?: boolean }) => {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium hover:text-primary transition-colors"
+              className={cn(
+                "text-sm font-medium transition-colors",
+                isAILab ? "text-black hover:text-black/70" : "hover:text-primary"
+              )}
             >
               {link.label}
             </Link>

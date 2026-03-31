@@ -97,9 +97,12 @@
 }
 
 .theme-ai-lab nav a,
-.theme-ai-lab .text-blue-50,
 .theme-ai-lab .text-blue-100 {
   color: black !important;
+}
+
+.theme-ai-lab .text-blue-50 {
+  color: white !important;
 }
 
 .theme-ai-lab nav a {
