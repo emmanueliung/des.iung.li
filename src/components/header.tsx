@@ -42,7 +42,7 @@ const Header = ({ isAILabProp = false }: { isAILabProp?: boolean }) => {
 
   const Logo = () => (
     <Image
-      src="/picto_ei_bl.png"
+      src={isAILab ? "/picto_ei_nr.png" : "/picto_ei_bl.png"}
       alt="Logo Emmanuel Iung"
       width={28}
       height={28}
