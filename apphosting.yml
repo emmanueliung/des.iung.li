@@ -6,6 +6,6 @@ run:
   # C'est la méthode officielle pour que votre clé soit disponible en production.
   environment:
     - variable: RESEND_API_KEY
-      value: re_VzWrAp67_2KgLKgqLVEajC8o5DkzJStYh
+      secret: RESEND_API_KEY
 # backend: est nécessaire pour spécifier que c'est un backend App Hosting
 backend: {}
