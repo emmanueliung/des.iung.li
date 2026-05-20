@@ -1,10 +1,5 @@
 # https://firebase.google.com/docs/app-hosting/configure-nextjs
 # Ce fichier configure le backend pour Firebase App Hosting.
 
-# Variables d'environnement et secrets
-env:
-  - variable: RESEND_API_KEY
-    secret: RESEND_API_KEY
-
 # Spécifie que c'est un backend App Hosting
 backend: {}
