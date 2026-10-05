@@ -14,13 +14,13 @@ export const useLanguage = () => {
 
   const { language } = context;
   
-  const t = (key: keyof Translations['fr']) => {
-    // This is a safe assertion because the key is one of the keys of the french translation.
-    // All languages are typed to have the same keys.
-    return translations[language][key] || key;
+  const t = <K extends keyof Translations['fr']>(key: K): Translations['fr'][K] => {
+    return translations[language][key] ?? (key as unknown as Translations['fr'][K]);
   };
   
   const portfolioItems = allPortfolioItems[language];
+  const apps = translations[language].apps;
 
-  return { ...context, t, portfolioItems };
+  return { ...context, t, portfolioItems, apps };
 };
+

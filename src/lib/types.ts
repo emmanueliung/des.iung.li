@@ -13,6 +13,30 @@ export type PortfolioItem = {
   category: string;
 };
 
+export type PortfolioData = Record<Language, PortfolioItem[]>;
+
+export type AppItem = {
+  id: string;
+  title: string;
+  badge: {
+    label: string;
+    dotColor?: string;
+  };
+  subtitle: string;
+  description: string;
+  challenge?: string;
+  solution?: string;
+  features: string[];
+  techStack: string[];
+  image: string;
+  videoUrl?: string;
+  gallery?: string[];
+  liveUrl?: string;
+  liveUrlLabel?: string;
+  confidential?: boolean;
+  confidentialNotice?: string;
+};
+
 export type Translations = {
   [key in Language]: {
     // Header
@@ -30,6 +54,23 @@ export type Translations = {
     aboutTitle: string;
     aboutParagraph1: string;
     aboutParagraph2: string;
+
+    // Lab Apps Section
+    labSectionBadge: string;
+    labSectionTitle: string;
+    labSectionSubtitle: string;
+    labSectionCta: string;
+    labModalChallengeTitle: string;
+    labModalSolutionTitle: string;
+    labModalFeaturesTitle: string;
+    labModalTechTitle: string;
+    labModalLiveBtn: string;
+    labModalCloseBtn: string;
+    labModalNoticeTitle: string;
+    labCardHoverCta: string;
+    labModalTabVideo: string;
+    labModalTabImages: string;
+    apps: AppItem[];
 
     // Portfolio
     portfolioTitle: string;
@@ -64,7 +105,6 @@ export type Translations = {
     aiLabCtaText: string;
     aiLabCtaButton: string;
 
-
     // Contact
     contactTitle: string;
     contactSubtitle: string;
@@ -88,5 +128,6 @@ export type Translations = {
     portfolioItems: PortfolioItem[];
   };
 };
+
 
     

@@ -1,5 +1,6 @@
 import type { Translations } from './types';
 import { portfolioItems } from './portfolio-data';
+import { appsData } from './apps-data';
 
 export const translations: Translations = {
   fr: {
@@ -13,6 +14,24 @@ export const translations: Translations = {
     aboutTitle: 'De la conception graphique à la création d\'applications IA',
     aboutParagraph1: 'Je suis Emmanuel Iung. Avec plus de deux décennies d\'expérience en design graphique, j\'ai cultivé une passion pour l\'esthétique visuelle et une communication claire. Mon parcours a commencé avec les outils traditionnels, mais ma curiosité m\'a rapidement poussé vers le numérique. J\'ai adopté WordPress à ses débuts, développant des sites web qui alliaient fonctionnalité et design.',
     aboutParagraph2: 'Aujourd\'hui, je suis à la pointe de l\'innovation, en intégrant l\'intelligence artificielle dans mes créations. J\'utilise les outils de Google Cloud pour construire des applications intelligentes et collaboratives. Mon objectif est de fusionner mon expertise en design avec la puissance de l\'IA pour créer des solutions uniques et percutantes.',
+
+    // Lab Apps Section
+    labSectionBadge: 'R&D & INNOVATION',
+    labSectionTitle: 'Le Lab : Applications & Prototypes',
+    labSectionSubtitle: 'Découvrez mes applications web, outils SaaS et prototypes interactifs conçus pour explorer l\'IA, le temps réel et l\'automatisation.',
+    labSectionCta: 'Découvrir ma démarche IA & Conseil',
+    labModalChallengeTitle: 'Le Défi & L\'Objectif',
+    labModalSolutionTitle: 'La Solution & Architecture',
+    labModalFeaturesTitle: 'Fonctionnalités Clés',
+    labModalTechTitle: 'Technologies & Outils',
+    labModalLiveBtn: 'Lancer l\'application en direct ↗',
+    labModalCloseBtn: 'Fermer l\'aperçu',
+    labModalNoticeTitle: 'Statut du projet',
+    labCardHoverCta: 'Explorer l\'application',
+    labModalTabVideo: 'Vidéo Démonstration',
+    labModalTabImages: 'Aperçu & Galerie',
+    apps: appsData.fr,
+
     portfolioTitle: 'Mes Projets',
     portfolioFilterAll: 'Tous',
     portfolioFilterDesign: 'Design Graphique',
@@ -70,6 +89,24 @@ export const translations: Translations = {
     aboutTitle: 'From Graphic Design to Building AI Applications',
     aboutParagraph1: 'I am Emmanuel Iung. With over two decades of experience in graphic design, I have cultivated a passion for visual aesthetics and clear communication. My journey began with traditional tools, but my curiosity quickly led me to the digital world. I embraced WordPress in its early days, developing websites that combined functionality and design.',
     aboutParagraph2: "Today, I am at the forefront of innovation, integrating artificial intelligence into my creations. I use Google Cloud tools to build intelligent and collaborative applications. My goal is to merge my design expertise with the power of AI to create unique and impactful solutions.",
+
+    // Lab Apps Section
+    labSectionBadge: 'R&D & INNOVATION',
+    labSectionTitle: 'The Lab: Apps & Prototypes',
+    labSectionSubtitle: 'Explore my web applications, SaaS tools, and interactive prototypes built to experiment with AI, real-time streams, and workflow automation.',
+    labSectionCta: 'Learn about my AI & Consulting approach',
+    labModalChallengeTitle: 'The Challenge & Goal',
+    labModalSolutionTitle: 'The Solution & Architecture',
+    labModalFeaturesTitle: 'Key Features',
+    labModalTechTitle: 'Technologies & Tools',
+    labModalLiveBtn: 'Launch Live Application ↗',
+    labModalCloseBtn: 'Close Preview',
+    labModalNoticeTitle: 'Project Status',
+    labCardHoverCta: 'Explore Application',
+    labModalTabVideo: 'Demo Video',
+    labModalTabImages: 'Preview & Gallery',
+    apps: appsData.en,
+
     portfolioTitle: 'My Projects',
     portfolioFilterAll: 'All',
     portfolioFilterDesign: 'Graphic Design',
@@ -127,6 +164,24 @@ export const translations: Translations = {
     aboutTitle: 'Del diseño gráfico a la creación de aplicaciones de IA',
     aboutParagraph1: 'Soy Emmanuel Iung. Con más de dos décadas de experiencia en diseño gráfico, he cultivado una pasión por la estética visual y la comunicación clara. Mi trayectoria comenzó con herramientas tradicionales, pero mi curiosidad me llevó rápidamente al mundo digital. Adopté WordPress en sus inicios, desarrollando sitios web que combinaban funcionalidad y diseño.',
     aboutParagraph2: 'Hoy, estoy a la vanguardia de la innovación, integrando la inteligencia artificial en mis creaciones. Utilizo las herramientas de Google Cloud para construir aplicaciones inteligentes y colaborativas. Mi objetivo es fusionar mi experiencia en diseño con el poder de la IA para crear soluciones únicas e impactantes.',
+
+    // Lab Apps Section
+    labSectionBadge: 'I+D & INNOVACIÓN',
+    labSectionTitle: 'El Lab: Aplicaciones & Prototipos',
+    labSectionSubtitle: 'Descubra mis aplicaciones web, herramientas SaaS y prototipos interactivos creados para explorar la IA, el tiempo real y la automatización.',
+    labSectionCta: 'Conocer mi enfoque de IA & Consultoría',
+    labModalChallengeTitle: 'El Desafío & Objetivo',
+    labModalSolutionTitle: 'La Solución & Arquitectura',
+    labModalFeaturesTitle: 'Funcionalidades Clave',
+    labModalTechTitle: 'Tecnologías & Herramientas',
+    labModalLiveBtn: 'Abrir aplicación en vivo ↗',
+    labModalCloseBtn: 'Cerrar vista previa',
+    labModalNoticeTitle: 'Estado del proyecto',
+    labCardHoverCta: 'Explorar aplicación',
+    labModalTabVideo: 'Video Demostración',
+    labModalTabImages: 'Vista Previa & Galería',
+    apps: appsData.es,
+
     portfolioTitle: 'Mis Proyectos',
     portfolioFilterAll: 'Todos',
     portfolioFilterDesign: 'Diseño Gráfico',
@@ -174,5 +229,6 @@ export const translations: Translations = {
     portfolioItems: portfolioItems.es,
   },
 };
+
 
     
