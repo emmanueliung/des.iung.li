@@ -6,11 +6,16 @@ export type PortfolioItem = {
   id: number;
   title: string;
   description: string;
+  longDescription?: string;
   imageUrls: string[];
   featuredImageUrl?: string;
   imageHints: string[];
   tags: string[];
   category: string;
+  liveUrl?: string;
+  liveUrlLabel?: string;
+  techStack?: string[];
+  features?: string[];
 };
 
 export type PortfolioData = Record<Language, PortfolioItem[]>;
