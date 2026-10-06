@@ -28,6 +28,7 @@ export type AppItem = {
   solution?: string;
   features: string[];
   techStack: string[];
+  sliderImage?: string;
   image: string;
   videoUrl?: string;
   gallery?: string[];

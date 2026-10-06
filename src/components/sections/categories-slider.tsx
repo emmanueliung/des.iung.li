@@ -122,7 +122,7 @@ const CategoriesSlider = () => {
                 {/* Background Image with grayscale to color on hover */}
                 <div className="absolute inset-0 z-0 overflow-hidden">
                   <Image
-                    src={app.image}
+                    src={app.sliderImage || app.image}
                     alt={app.title}
                     fill
                     sizes="(max-width: 768px) 85vw, (max-width: 1200px) 35vw, 25vw"
